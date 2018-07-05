@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Module5</DisplayName>
+    <Description>Install Module5</Description>
+    <Name>com.org.product.module5</Name>
+    <Dependencies>com.org.product.module,com.org.product.module6, com.org.product.module3, com.org.product.module7, com.org.product.module2</Dependencies>
+    <Version>1.0</Version>
+    <ReleaseDate>2010-09-21</ReleaseDate>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>page.ui</UserInterface>
+    </UserInterfaces>
+</Package>

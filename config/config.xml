@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>QT Installer Demo</Name>
+    <Version>2.0.0|200|master</Version>
+    <Title>QT Demo Installer</Title>
+    <Publisher>QT Installer</Publisher>
+    <ProductUrl>http://www.org.com</ProductUrl>
+    <InstallerWindowIcon>logo.png</InstallerWindowIcon>
+    <InstallerApplicationIcon>prodicon.ico</InstallerApplicationIcon>
+    <Logo>prod-logo.png</Logo>
+    <RunProgramDescription>QT Demo Installer</RunProgramDescription>
+    <StartMenuDir>QTDemoInstaller</StartMenuDir>
+    <MaintenanceToolName>QTDemoInstallerMaintenanceTool</MaintenanceToolName>
+    <AllowNonAsciiCharacters>false</AllowNonAsciiCharacters>
+    <WizardStyle>Modern</WizardStyle>
+    <TargetDir>@HomeDir@/QTDemoInstaller</TargetDir>
+    <AdminTargetDir>/usr/local/QTDemoInstaller</AdminTargetDir>
+    <RepositorySettingsPageVisible>false</RepositorySettingsPageVisible>
+    <CreateLocalRepository>false</CreateLocalRepository>
+    <AllowSpaceInPath>false</AllowSpaceInPath>
+    <ControlScript>controlInstaller.qs</ControlScript>
+    <SupportsModify>false</SupportsModify>
+</Installer>

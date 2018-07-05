@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>QT Demo Module2</DisplayName>
+    <Description>Install Module2</Description>
+    <Name>com.org.product.module2</Name>
+    <Version>1.0</Version>
+    <ReleaseDate>2018-05-30</ReleaseDate>
+    <UserInterfaces></UserInterfaces>
+    <Virtual>true</Virtual>
+    <Script>installscript.qs</Script>
+</Package>

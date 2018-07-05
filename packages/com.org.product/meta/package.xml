@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>QT Demo Installer</DisplayName>
+    <Description>Install QT Demo</Description>
+    <Name>com.org.product</Name>
+    <Version>1.0</Version>
+    <ReleaseDate>2010-09-21</ReleaseDate>
+    <Licenses>
+        <License name="License Agreement" file="license.txt" />
+    </Licenses>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>installationDetailsPage.ui</UserInterface>
+        <UserInterface>abortInstallationPage.ui</UserInterface>
+    </UserInterfaces>
+    <RequiresAdminRights>false</RequiresAdminRights>
+</Package>
