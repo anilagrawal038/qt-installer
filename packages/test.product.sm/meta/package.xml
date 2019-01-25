@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Test Product Service Manager</DisplayName>
+    <Description>Install Test Product Service Manager</Description>
+    <Name>test.product.sm</Name>
+    <Version>1.0</Version>
+    <ReleaseDate>2018-05-30</ReleaseDate>
+    <UserInterfaces>
+        <UserInterface>page.ui</UserInterface>
+    </UserInterfaces>
+    <Virtual>true</Virtual>
+    <Script>installscript.qs</Script>
+</Package>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Test Product</Name>
+    <Version>1.0|1000|trunk</Version>
+    <Title>Test Product</Title>
+    <Publisher>Private Company</Publisher>
+    <ProductUrl>http://www.san.com</ProductUrl>
+    <InstallerWindowIcon>logo.png</InstallerWindowIcon>
+    <InstallerApplicationIcon>logo.ico</InstallerApplicationIcon>
+    <Logo>product-logo.png</Logo>
+    <RunProgramDescription>Test Product</RunProgramDescription>
+    <StartMenuDir>TestProduct</StartMenuDir>
+    <MaintenanceToolName>TestProductMaintenanceTool</MaintenanceToolName>
+    <AllowNonAsciiCharacters>false</AllowNonAsciiCharacters>
+    <WizardStyle>Modern</WizardStyle>
+    <TargetDir>@HomeDir@/TestProduct</TargetDir>
+    <AdminTargetDir>/usr/local/TestProduct</AdminTargetDir>
+    <RepositorySettingsPageVisible>false</RepositorySettingsPageVisible>
+    <CreateLocalRepository>false</CreateLocalRepository>
+    <AllowSpaceInPath>false</AllowSpaceInPath>
+    <ControlScript>controlInstaller.qs</ControlScript>
+    <SupportsModify>false</SupportsModify>
+</Installer>

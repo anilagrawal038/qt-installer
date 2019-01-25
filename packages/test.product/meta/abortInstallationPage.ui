@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AbortInstallationPage</class>
+ <widget class="QWidget" name="AbortInstallationPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Abort Test Product Installation</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="message" stdset="0">
+      <string>Test Product Installation Details</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextBrowser" name="abortDetails"/>
+   </item>
+   <!-- <item>
+    <widget class="QPushButton" name="launchTool">
+     <property name="text">
+      <string>Launch Test Product Maintenance Tool</string>
+     </property>
+    </widget>
+   </item> -->
+   <item>
+    <widget class="QRadioButton" name="uninstall">
+     <property name="text">
+      <string>Uninstall Test Product</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="upgrade">
+     <property name="text">
+      <string>Upgrade Test Product</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

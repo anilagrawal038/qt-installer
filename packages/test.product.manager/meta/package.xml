@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Test Product Manager</DisplayName>
+    <Description>Install Test Product Manager</Description>
+    <Name>test.product.manager</Name>
+    <Dependencies>test.product.sm</Dependencies>
+    <Version>1.0</Version>
+    <ReleaseDate>2018-05-30</ReleaseDate>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>page.ui</UserInterface>
+    </UserInterfaces>
+</Package>

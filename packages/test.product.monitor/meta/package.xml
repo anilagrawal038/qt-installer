@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Test Product Monitor</DisplayName>
+    <Description>Install Test Product Monitor</Description>
+    <Name>test.product.monitor</Name>
+    <Dependencies>test.product.sm</Dependencies>
+    <Version>1.0</Version>
+    <ReleaseDate>2018-05-30</ReleaseDate>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>page.ui</UserInterface>
+    </UserInterfaces>
+</Package>

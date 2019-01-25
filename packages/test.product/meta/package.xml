@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Test Product</DisplayName>
+    <Description>Install Test Product</Description>
+    <Name>test.product</Name>
+    <Version>1.0</Version>
+    <ReleaseDate>2018-05-30</ReleaseDate>
+    <Licenses>
+        <License name="Private License Agreement" file="license.txt" />
+    </Licenses>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>installationDetailsPage.ui</UserInterface>
+        <UserInterface>abortInstallationPage.ui</UserInterface>
+    </UserInterfaces>
+    <RequiresAdminRights>true</RequiresAdminRights>
+</Package>
